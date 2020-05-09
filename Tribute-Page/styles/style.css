@@ -1,0 +1,61 @@
+main{
+    font-family: 'Open Sans', sans-serif;  
+}
+
+#title{
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(220, 221, 174);
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#tribute-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+#ul-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    margin-top: 85px;
+    border: solid;
+    border-radius: 5%;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body{
+    margin: 20px 15px 20px 15px;
+}
+
+#image{
+    width: 75%;
+    height: auto;
+}
